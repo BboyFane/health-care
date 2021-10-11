@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import logo from '../../assets/logo-blue.png'
-import CTA from '../CTA/CTA'
+import { Button } from '@mui/material';
 
 function Navbar() {
     return (
@@ -29,8 +29,7 @@ function Navbar() {
                 {/* Navbar right side */}
                 <div className='navbar-container-right'>
                     {/* Rework the design */}
-                    <CTA variant='primary' buttonName="Let's Talk"></CTA>
-                    <button>Let's Talk</button>
+                    <Button variant='contained'>Let's Talk</Button>
                 </div>
             </div>
         </nav>
