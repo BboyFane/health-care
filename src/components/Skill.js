@@ -8,7 +8,7 @@ function Skill() {
                 <h2>My Skill <em>depends</em> on work.</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. blandit feugiat viverra est suspendisse porta tortor commodo, tellus. Neque,</p>
             </div>
-            <Grid container spacing={2} style={{paddingInline: 10}}>
+            <Grid container spacing={2} style={{paddingInline: 10, textAlign: 'center'}}>
                 <Grid item md={3} className='skill-safety'>
                     <Card style={{backgroundColor: '#F25A3C', width: 265, height: 350}}>
                         <div className='skill-safety-logo'>logo</div>
