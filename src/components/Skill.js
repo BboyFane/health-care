@@ -10,7 +10,7 @@ function Skill() {
             </div>
             <Grid container spacing={2} style={{paddingInline: 10, textAlign: 'center'}}>
                 <Grid item md={3} className='skill-safety'>
-                    <Card style={{backgroundColor: '#F25A3C', width: 265, height: 350}}>
+                    <Card style={{backgroundColor: '#F25A3C', width: 265, height: 350}}> {/* Have to put the 4th color value to 0.1 */}
                         <div className='skill-safety-logo'>logo</div>
                         <div className='skill-safety-text'>
                             <h4>title</h4>
