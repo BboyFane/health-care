@@ -10,7 +10,7 @@ function Opinion() {
             </Grid>                
             <Grid item md={6} offset={6}>
                 <p>Blandit feugiat viverra est tortor commodo, tellus. pellentesque diam, id felis viverra diam. Molestie solli semper ornare dolor augue aucto.</p>
-                <h3>Justin Lubin</h3>
+                <h4>Justin Lubin</h4>
                 <p>Patient</p>
             </Grid>                
             </Grid>

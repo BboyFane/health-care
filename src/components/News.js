@@ -18,7 +18,7 @@ function News() {
                         <Grid item md={5}>
                             21/07/2021
                         </Grid>
-                        <h3>Join me and respectfully fight COVID misinformation.</h3>
+                        <h4>Join me and respectfully fight COVID misinformation.</h4>
                         <p>Blandit feugiat viverra est tortor commodo, tellus. Neque, pellentesque diam, id felis viverra diam. Molestie sollicitudin semper ornare dolor augue auctor eget nisl.Lorem ipsum dolor sit amet.<br/>Blandit feugiat viverra est tortor commodo, tellus. Neque, pellentesque diam, id felis viverra diam. Molestie sollicitudin semper ornare dolor augue auctor eget nisl.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </Grid>
                 </Grid>
@@ -34,21 +34,21 @@ function News() {
                             <Grid item md={4}/>
                             <Grid item md={8}>
                                 <h4>I’m called anti-science I’m just an early...</h4>
-                                <a href='/read-more' target='_blank'>Read more</a>
+                                <a href='/read-more'>Read more</a>
                             </Grid>
                         </Grid>
                         <Grid container item>
                             <Grid item md={4}/>
                             <Grid item md={8}>
                                 <h4>Burnout and bias? Or medical...</h4>
-                                <a href='/read-more' target='_blank'>Read more</a>
+                                <a href='/read-more'>Read more</a>
                             </Grid>
                         </Grid>
                         <Grid container item>
                             <Grid item md={4}/>
                             <Grid item md={8}>
                                 <h4>Healthy Living With Graves’ Disease.</h4>
-                                <a href='/read-more' target='_blank'>Read more</a>
+                                <a href='/read-more'>Read more</a>
                             </Grid>
                         </Grid>
                     </Grid>

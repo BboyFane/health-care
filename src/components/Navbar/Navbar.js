@@ -10,7 +10,7 @@ function Navbar() {
                 {/* Navbar left side */}
                 <div className='navbar-container-left'>
                     {/* Logo to update and make it clickable */}
-                    <a href='/' target='_blank'>
+                    <a href='/'>
                         <img alt='Health-Care logo' src={logo}/>
                     </a>
                 </div>
@@ -18,18 +18,18 @@ function Navbar() {
                 <div className='navbar-container-center' style={{display: 'flex', minWidth: '50%'}}>
                     {/* Change list to be link */}
                     <ul style={{display: 'flex', justifyContent: 'space-around', alignItems: 'center', minWidth: '100%', listStyle: 'none'}}>
-                        <li><a href='/' target='_blank'Z>Home</a></li>
-                        <li><a href='/work' target='_blank'>Work</a></li>
-                        <li><a href='/about' target='_blank'>About</a></li>
-                        <li><a href='/schedule' target='_blank'>Schedule</a></li>
-                        <li><a href='/reviews' target='_blank'>Reviews</a></li>
-                        <li><a href='/blog' target='_blank'>Blog</a></li>
+                        <li><a href='/'>Home</a></li>
+                        <li><a href='/work'>Work</a></li>
+                        <li><a href='/about'>About</a></li>
+                        <li><a href='/schedule'>Schedule</a></li>
+                        <li><a href='/reviews'>Reviews</a></li>
+                        <li><a href='/blog'>Blog</a></li>
                     </ul>
                 </div>
                 {/* Navbar right side */}
                 <div className='navbar-container-right'>
                     {/* Rework the design */}
-                    <Button variant='contained'>Let's Talk</Button>
+                    <Button className='cta' variant='contained'>Let's Talk</Button>
                 </div>
             </div>
         </nav>
