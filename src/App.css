@@ -65,13 +65,18 @@ a:hover {
     background-size: cover;
 }
 
-.header-title {
-    width: '85%';
+.header-left-corner{
+    width: 40%;
+    padding: 80px;
+    margin-top: 50px;
+}
+
+.header-subtitle {
+    width: 85%;
 }
 
 em {
     color: #1370FB;
-    font-weight: 400;
     font-style: inherit;
     text-decoration: underline;
 }
